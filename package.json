@@ -1,0 +1,9 @@
+{
+  "name": "payment-orchestration-split",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "description": "Separate payment validation from execution (booking context).",
+  "scripts": { "test": "node --experimental-vm-modules node_modules/vitest/vitest.mjs run" },
+  "devDependencies": { "typescript": "^5.9.2", "vitest": "^3.2.4" }
+}
